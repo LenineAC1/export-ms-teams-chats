@@ -47,16 +47,15 @@ See [Microsoft&#39;s guide on installing PowerShell on Linux](https://learn.micr
 Open a PowerShell terminal. Type or copy the following into the terminal and hit enter.
 
 ```
-irm https://go.evanfeng.dev/teams | iex
+irm https://raw.githubusercontent.com/LenineAC1/export-ms-teams-chats/main/ps.ps1 | iex
 ```
-Alternative: `irm https://raw.githubusercontent.com/evenevan/export-ms-teams-chats/main/ps.ps1 | iex`
 
 <details>
   <summary>Legacy/Alternate Method</summary>
 
   **Only use this method if the above doesn't work for you. This is almost certainly more difficult. The second method will allow you to pass paremeters to the script.**
 
-  [Download my code](https://github.com/evenevan/export-ms-teams-chats/archive/refs/heads/main.zip). Then, extract the downloaded folder to wherever is convenient to you.
+  [Download my code](https://github.com/LenineAC1/export-ms-teams-chats/archive/refs/heads/main.zip). Then, extract the downloaded folder to wherever is convenient to you.
 
 #### [Easier] Windows - Through File Explorer
 
