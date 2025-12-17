@@ -101,7 +101,7 @@ Hopefully that is it! If you run into any issues, please let me know.
 - I have not tested this on MacOS.
 - If the script seems to be stuck and not doing anything, wait a few minutes. Make sure you didn't accidentally end the script by pressing Ctrl + C too many times. If it still isn't doing anything, you can kill the script and try again. You can also try running the script with verbose mode enabled (see below).
 - If you are having trouble, you can enable verbose output by using one of the following.
-  - Run `irm https://raw.githubusercontent.com/evenevan/export-ms-teams-chats/main/ps-verbose.ps1 | iex` in a PowerShell terminal.
+  - Run `irm https://raw.githubusercontent.com/LenineAC1/export-ms-teams-chats/main/ps-verbose.ps1 | iex` in a PowerShell terminal.
   - Run `./Get-MicrosoftTeamsChat.ps1 -Verbose` in a PowerShell terminal in the directory with the `Get-MicrosoftTeamsChat.ps1` file.
 - If you are running into odd issues on a Windows based system, you can try using PowerShell 7. Note that PowerShell 7 is different than Windows PowerShell, where the latter is probably preinstalled with your system. See [Microsoft&#39;s guide on installing PowerShell on Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) for PowerShell 7 install instructions.
 
